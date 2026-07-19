@@ -1,0 +1,1630 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Les 369 SURPUISSANTS SECRETS AFRICAIN</title>
+  <meta name="description"
+    content="Découvrez les 369 SURPUISSANTS SECRETS AFRICAIN — un livre révélant les savoirs ancestraux africains pour transformer votre vie : prospérité, protection, amour, santé et spiritualité." />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link
+    href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Playfair+Display:wght@600;700;800&display=swap"
+    rel="stylesheet" />
+
+  <style>
+    /* ============================================================
+       DESIGN TOKENS — Afro-Royal Theme
+       ============================================================ */
+    :root {
+      --primary: #D4A017;
+      --primary-container: #E8C44A;
+      --on-primary: #1A0F00;
+      --secondary: #8B4513;
+      --secondary-container: #D2691E;
+      --on-secondary-fixed: #FFF8F0;
+      --accent: #1B5E20;
+      --accent-container: #4CAF50;
+      --surface: #FFF8F0;
+      --surface-dim: #F0E6D0;
+      --surface-container-low: #FFFDF5;
+      --surface-container: #FEF7E8;
+      --surface-container-high: #F8F0DC;
+      --surface-container-highest: #F0E6D0;
+      --surface-container-lowest: #FFFFFF;
+      --on-surface: #2C1810;
+      --on-surface-variant: #6D4C3A;
+      --outline-variant: #E0C9A8;
+      --secondary-fixed-dim: #D4A017;
+
+      --font-headline: 'Playfair Display', serif;
+      --font-body: 'Inter', sans-serif;
+      --radius-md: 0.375rem;
+      --radius-lg: 1rem;
+      --radius-xl: 1.5rem;
+      --radius-full: 9999px;
+      --spacing-4: 1rem;
+      --spacing-6: 1.5rem;
+      --spacing-8: 2rem;
+      --spacing-12: 3rem;
+      --spacing-20: 5rem;
+      --spacing-24: 6rem;
+
+      --gold-gradient: linear-gradient(135deg, #D4A017, #E8C44A, #D4A017);
+      --dark-gradient: linear-gradient(135deg, #2C1810, #4A2C1A);
+      --hero-overlay: rgba(44, 24, 16, 0.85);
+    }
+
+    /* ============================================================
+       RESET & BASE
+       ============================================================ */
+    *,
+    *::before,
+    *::after {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+    }
+
+    html {
+      scroll-behavior: smooth;
+    }
+
+    body {
+      font-family: var(--font-body);
+      background-color: var(--surface);
+      color: var(--on-surface);
+      line-height: 1.6;
+      overflow-x: hidden;
+    }
+
+    /* ============================================================
+       TYPOGRAPHY
+       ============================================================ */
+    .display-lg {
+      font-family: var(--font-headline);
+      font-size: clamp(2.2rem, 5vw, 3.8rem);
+      font-weight: 800;
+      letter-spacing: -0.02em;
+      line-height: 1.1;
+    }
+
+    .display-sm {
+      font-family: var(--font-headline);
+      font-size: clamp(1.5rem, 3vw, 2.2rem);
+      font-weight: 700;
+      letter-spacing: -0.01em;
+      line-height: 1.2;
+    }
+
+    .title-lg {
+      font-family: var(--font-headline);
+      font-size: 1.375rem;
+      font-weight: 700;
+      line-height: 1.4;
+    }
+
+    .title-sm {
+      font-family: var(--font-body);
+      font-size: 1rem;
+      font-weight: 600;
+    }
+
+    .label-upper {
+      font-family: var(--font-body);
+      font-size: 0.75rem;
+      font-weight: 600;
+      letter-spacing: 0.08em;
+      text-transform: uppercase;
+    }
+
+    .body-md {
+      font-size: 1rem;
+      color: var(--on-surface-variant);
+      line-height: 1.7;
+    }
+
+    .text-gold {
+      color: var(--primary);
+    }
+
+    .section-title {
+      text-align: center;
+      margin-bottom: var(--spacing-4);
+    }
+
+    .section-title .display-sm {
+      position: relative;
+      display: inline-block;
+    }
+
+    .section-title .display-sm::after {
+      content: '';
+      display: block;
+      width: 80px;
+      height: 3px;
+      background: var(--gold-gradient);
+      margin: 0.75rem auto 0;
+      border-radius: 2px;
+    }
+
+    .section-desc {
+      text-align: center;
+      max-width: 640px;
+      margin: 0 auto var(--spacing-8);
+    }
+
+    /* ============================================================
+       SCROLL TO TOP
+       ============================================================ */
+    .scroll-top-btn {
+      position: fixed;
+      bottom: 2rem;
+      right: 2rem;
+      width: 50px;
+      height: 50px;
+      background: var(--gold-gradient);
+      color: var(--on-primary);
+      border-radius: 50%;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      box-shadow: 0 8px 32px rgba(212, 160, 23, 0.3);
+      cursor: pointer;
+      z-index: 500;
+      opacity: 0;
+      pointer-events: none;
+      transition: opacity 0.3s ease, transform 0.2s ease;
+      border: none;
+      font-size: 1.25rem;
+    }
+
+    .scroll-top-btn.visible {
+      opacity: 1;
+      pointer-events: auto;
+    }
+
+    .scroll-top-btn:hover {
+      transform: translateY(-5px) scale(1.1);
+    }
+
+    /* ============================================================
+       BUTTONS
+       ============================================================ */
+    .btn-primary {
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      gap: 0.5rem;
+      padding: 1rem 2.5rem;
+      background: var(--gold-gradient);
+      color: var(--on-primary);
+      font-family: var(--font-headline);
+      font-size: 1.1rem;
+      font-weight: 700;
+      border: none;
+      border-radius: var(--radius-full);
+      cursor: pointer;
+      text-decoration: none;
+      transition: transform 0.2s ease, box-shadow 0.2s ease;
+      box-shadow: 0 6px 24px rgba(212, 160, 23, 0.4);
+      position: relative;
+      overflow: hidden;
+    }
+
+    .btn-primary::after {
+      content: '';
+      position: absolute;
+      top: 0;
+      left: -100%;
+      width: 50%;
+      height: 100%;
+      background: linear-gradient(to right,
+          rgba(255, 255, 255, 0) 0%,
+          rgba(255, 255, 255, 0.3) 50%,
+          rgba(255, 255, 255, 0) 100%);
+      transform: skewX(-25deg);
+      animation: shine 3s infinite;
+    }
+
+    @keyframes shine {
+      0%,
+      100% {
+        left: -100%;
+      }
+      50% {
+        left: 150%;
+      }
+    }
+
+    .btn-primary:hover {
+      transform: translateY(-3px) scale(1.02);
+      box-shadow: 0 10px 36px rgba(212, 160, 23, 0.5);
+    }
+
+    .btn-primary:active {
+      transform: scale(0.97);
+    }
+
+    .btn-secondary {
+      display: inline-flex;
+      align-items: center;
+      gap: 0.5rem;
+      padding: 0.85rem 2rem;
+      background: transparent;
+      color: var(--on-surface);
+      font-family: var(--font-headline);
+      font-size: 1rem;
+      font-weight: 700;
+      border: 2px solid var(--primary);
+      border-radius: var(--radius-full);
+      cursor: pointer;
+      text-decoration: none;
+      transition: transform 0.2s ease, box-shadow 0.2s ease, background 0.2s ease;
+    }
+
+    .btn-secondary:hover {
+      background: rgba(212, 160, 23, 0.08);
+      transform: translateY(-2px);
+    }
+
+    /* Pulse animation for main CTA */
+    @keyframes pulse-subtle {
+      0% {
+        transform: translateY(0) scale(1);
+      }
+      50% {
+        transform: translateY(-3px) scale(1.03);
+      }
+      100% {
+        transform: translateY(0) scale(1);
+      }
+    }
+
+    .hero-actions .btn-primary {
+      animation: pulse-subtle 3s infinite ease-in-out;
+    }
+
+    .hero-actions .btn-primary:hover {
+      animation: none;
+    }
+
+    /* ============================================================
+       LAYOUT
+       ============================================================ */
+    .container {
+      max-width: 1140px;
+      margin: 0 auto;
+      padding: 0 var(--spacing-6);
+    }
+
+    .section {
+      padding: var(--spacing-20) 0;
+      position: relative;
+    }
+
+    .section-alt {
+      background: var(--surface-container-low);
+    }
+
+    .section-dark {
+      background: var(--dark-gradient);
+      color: var(--surface);
+    }
+
+    .section-dark .body-md {
+      color: rgba(255, 248, 240, 0.8);
+    }
+
+    /* ============================================================
+       PATTERN OVERLAYS (African patterns)
+       ============================================================ */
+    .pattern-bg {
+      position: absolute;
+      top: 0;
+      left: 0;
+      right: 0;
+      bottom: 0;
+      pointer-events: none;
+      overflow: hidden;
+      opacity: 0.04;
+    }
+
+    .pattern-bg .diamond {
+      position: absolute;
+      width: 120px;
+      height: 120px;
+      border: 2px solid var(--primary);
+      transform: rotate(45deg);
+    }
+
+    .pattern-bg .diamond:nth-child(1) {
+      top: 5%;
+      left: -60px;
+    }
+    .pattern-bg .diamond:nth-child(2) {
+      top: 40%;
+      right: -60px;
+    }
+    .pattern-bg .diamond:nth-child(3) {
+      bottom: 10%;
+      left: 20%;
+      width: 80px;
+      height: 80px;
+    }
+    .pattern-bg .diamond:nth-child(4) {
+      top: 20%;
+      right: 30%;
+      width: 60px;
+      height: 60px;
+    }
+
+    .pattern-bg .circle-dot {
+      position: absolute;
+      width: 8px;
+      height: 8px;
+      background: var(--primary);
+      border-radius: 50%;
+    }
+
+    .pattern-bg .circle-dot:nth-child(5) {
+      top: 10%;
+      left: 20%;
+    }
+    .pattern-bg .circle-dot:nth-child(6) {
+      top: 60%;
+      left: 10%;
+    }
+    .pattern-bg .circle-dot:nth-child(7) {
+      bottom: 30%;
+      right: 15%;
+    }
+    .pattern-bg .circle-dot:nth-child(8) {
+      top: 30%;
+      right: 10%;
+    }
+
+    /* ============================================================
+       NAV
+       ============================================================ */
+    nav {
+      position: fixed;
+      top: 0;
+      left: 0;
+      right: 0;
+      z-index: 100;
+      background: rgba(255, 248, 240, 0.85);
+      backdrop-filter: blur(20px);
+      -webkit-backdrop-filter: blur(20px);
+      border-bottom: 1px solid rgba(224, 201, 168, 0.3);
+      padding: 0.85rem 0;
+    }
+
+    nav .container {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+
+    .nav-logo {
+      font-family: var(--font-headline);
+      font-size: 1.4rem;
+      font-weight: 800;
+      background: var(--gold-gradient);
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+      background-clip: text;
+      text-decoration: none;
+      letter-spacing: -0.02em;
+    }
+
+    .nav-logo span {
+      -webkit-text-fill-color: var(--on-surface);
+      color: var(--on-surface);
+    }
+
+    .nav-cta {
+      font-size: 0.875rem;
+      padding: 0.6rem 1.5rem;
+    }
+
+    .nav-right {
+      display: flex;
+      align-items: center;
+      gap: 0.75rem;
+    }
+
+    /* Language Toggle */
+    .lang-toggle {
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      width: 40px;
+      height: 40px;
+      border-radius: 50%;
+      border: 1.5px solid var(--outline-variant);
+      background: var(--surface-container-lowest);
+      color: var(--on-surface-variant);
+      font-family: var(--font-headline);
+      font-size: 0.8rem;
+      font-weight: 800;
+      cursor: pointer;
+      transition: background 0.2s ease, color 0.2s ease, border-color 0.2s ease, transform 0.2s ease;
+      text-transform: uppercase;
+      letter-spacing: 0.02em;
+      flex-shrink: 0;
+    }
+
+    .lang-toggle:hover {
+      background: var(--surface-container);
+      border-color: var(--primary);
+      color: var(--primary);
+      transform: scale(1.05);
+    }
+
+    /* ============================================================
+       HERO
+       ============================================================ */
+    #hero {
+      padding-top: calc(var(--spacing-24) + 20px);
+      padding-bottom: var(--spacing-24);
+      background: linear-gradient(170deg, var(--surface) 0%, var(--surface-container-high) 50%, var(--surface-dim) 100%);
+      overflow: hidden;
+      position: relative;
+      min-height: 100vh;
+      display: flex;
+      align-items: center;
+    }
+
+    /* Decorative golden blob */
+    #hero::before {
+      content: '';
+      position: absolute;
+      top: -200px;
+      right: -200px;
+      width: 700px;
+      height: 700px;
+      background: radial-gradient(circle, rgba(212, 160, 23, 0.08) 0%, transparent 70%);
+      border-radius: 50%;
+      pointer-events: none;
+    }
+
+    #hero::after {
+      content: '';
+      position: absolute;
+      bottom: -150px;
+      left: -150px;
+      width: 500px;
+      height: 500px;
+      background: radial-gradient(circle, rgba(139, 69, 19, 0.06) 0%, transparent 70%);
+      border-radius: 50%;
+      pointer-events: none;
+    }
+
+    .hero-inner {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: var(--spacing-12);
+      align-items: center;
+      position: relative;
+      z-index: 1;
+    }
+
+    .hero-badge {
+      display: inline-block;
+      background: linear-gradient(135deg, rgba(212, 160, 23, 0.15), rgba(232, 196, 74, 0.15));
+      color: var(--secondary);
+      padding: 0.35rem 1.2rem;
+      border-radius: var(--radius-full);
+      margin-bottom: var(--spacing-4);
+      font-weight: 600;
+      font-size: 0.875rem;
+      border: 1px solid rgba(212, 160, 23, 0.2);
+    }
+
+    .hero-title {
+      margin-bottom: var(--spacing-6);
+    }
+
+    .hero-title em {
+      font-style: normal;
+      background: var(--gold-gradient);
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+      background-clip: text;
+    }
+
+    .hero-desc {
+      margin-bottom: var(--spacing-8);
+      font-size: 1.1rem;
+    }
+
+    .hero-actions {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 1rem;
+      align-items: center;
+      margin-bottom: var(--spacing-6);
+    }
+
+    .secure-badge {
+      display: flex;
+      align-items: center;
+      gap: 0.4rem;
+      font-size: 0.8rem;
+      color: var(--on-surface-variant);
+      margin-bottom: var(--spacing-6);
+    }
+
+    .secure-badge .lock-icon {
+      color: var(--accent);
+    }
+
+    .price-block {
+      display: flex;
+      align-items: center;
+      gap: 1rem;
+      margin-bottom: var(--spacing-6);
+      flex-wrap: wrap;
+    }
+
+    .price-now {
+      font-family: var(--font-headline);
+      font-size: 2.2rem;
+      font-weight: 800;
+      background: var(--gold-gradient);
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+      background-clip: text;
+    }
+
+    .price-old {
+      font-size: 1.1rem;
+      color: var(--on-surface-variant);
+      text-decoration: line-through;
+    }
+
+    .price-badge {
+      background: linear-gradient(135deg, #e53935, #c62828);
+      color: white;
+      font-family: var(--font-headline);
+      font-size: 0.8rem;
+      font-weight: 700;
+      padding: 0.3rem 0.9rem;
+      border-radius: var(--radius-full);
+    }
+
+    /* Hero Visual — Book cover */
+    .hero-visual {
+      position: relative;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+
+    .book-cover-wrapper {
+      position: relative;
+      width: 100%;
+      max-width: 380px;
+      aspect-ratio: 2/3;
+      border-radius: var(--radius-lg);
+      overflow: hidden;
+      box-shadow:
+        0 30px 80px rgba(44, 24, 16, 0.25),
+        0 10px 30px rgba(44, 24, 16, 0.15),
+        inset 0 1px 0 rgba(255, 255, 255, 0.1);
+      background: var(--dark-gradient);
+      transition: transform 0.4s ease, box-shadow 0.4s ease;
+    }
+
+    .book-cover-wrapper:hover {
+      transform: translateY(-8px) scale(1.02);
+      box-shadow:
+        0 40px 100px rgba(44, 24, 16, 0.35),
+        0 15px 40px rgba(44, 24, 16, 0.2);
+    }
+
+    .book-cover-wrapper img {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+      display: block;
+    }
+
+    /* Placeholder when no image */
+    .book-cover-placeholder {
+      width: 100%;
+      height: 100%;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      padding: 2rem;
+      text-align: center;
+      background: var(--dark-gradient);
+      color: var(--surface);
+    }
+
+    .book-cover-placeholder .book-icon {
+      font-size: 4rem;
+      margin-bottom: 1rem;
+      opacity: 0.9;
+    }
+
+    .book-cover-placeholder .book-title-placeholder {
+      font-family: var(--font-headline);
+      font-size: 1.6rem;
+      font-weight: 800;
+      line-height: 1.2;
+      margin-bottom: 0.5rem;
+    }
+
+    .book-cover-placeholder .book-subtitle-placeholder {
+      font-size: 0.85rem;
+      opacity: 0.7;
+      max-width: 240px;
+    }
+
+    .book-cover-wrapper::after {
+      content: '';
+      position: absolute;
+      top: 0;
+      left: 0;
+      right: 0;
+      bottom: 0;
+      background: linear-gradient(180deg, rgba(212, 160, 23, 0.1) 0%, transparent 50%, rgba(44, 24, 16, 0.2) 100%);
+      pointer-events: none;
+    }
+
+    /* Golden decorative border */
+    .book-cover-wrapper::before {
+      content: '';
+      position: absolute;
+      inset: -3px;
+      border-radius: calc(var(--radius-lg) + 3px);
+      background: var(--gold-gradient);
+      z-index: -1;
+      opacity: 0.6;
+    }
+
+    /* Glow effect */
+    .hero-visual::before {
+      content: '';
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      width: 120%;
+      padding-bottom: 120%;
+      background: radial-gradient(circle, rgba(212, 160, 23, 0.06) 0%, transparent 70%);
+      border-radius: 50%;
+      pointer-events: none;
+    }
+
+    /* ============================================================
+       STATS STRIP
+       ============================================================ */
+    .stats-strip {
+      background: var(--dark-gradient);
+      padding: var(--spacing-8) 0;
+      position: relative;
+      overflow: hidden;
+    }
+
+    .stats-strip::before {
+      content: '';
+      position: absolute;
+      top: 0;
+      left: 0;
+      right: 0;
+      height: 2px;
+      background: var(--gold-gradient);
+    }
+
+    .stats-strip .container {
+      display: grid;
+      grid-template-columns: repeat(4, 1fr);
+      gap: var(--spacing-6);
+      text-align: center;
+      position: relative;
+      z-index: 1;
+    }
+
+    .strip-number {
+      font-family: var(--font-headline);
+      font-size: 2.5rem;
+      font-weight: 800;
+      display: block;
+      background: var(--gold-gradient);
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+      background-clip: text;
+    }
+
+    .strip-label {
+      font-size: 0.85rem;
+      color: rgba(255, 248, 240, 0.75);
+      font-weight: 500;
+    }
+
+    /* ============================================================
+       ABOUT SECTION
+       ============================================================ */
+    .about-grid {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: var(--spacing-12);
+      align-items: center;
+    }
+
+    .about-features {
+      list-style: none;
+      display: flex;
+      flex-direction: column;
+      gap: 1rem;
+      margin-top: var(--spacing-6);
+    }
+
+    .about-features li {
+      display: flex;
+      gap: 1rem;
+      align-items: flex-start;
+    }
+
+    .feature-check {
+      width: 26px;
+      height: 26px;
+      background: var(--gold-gradient);
+      border-radius: 50%;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      flex-shrink: 0;
+      color: var(--on-primary);
+      font-size: 0.8rem;
+      margin-top: 1px;
+    }
+
+    .about-visual {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+
+    .about-card {
+      background: var(--surface-container-lowest);
+      border-radius: var(--radius-xl);
+      padding: var(--spacing-8);
+      box-shadow: 0 20px 50px rgba(44, 24, 16, 0.08);
+      position: relative;
+      overflow: hidden;
+      width: 100%;
+      max-width: 400px;
+    }
+
+    .about-card::before {
+      content: '';
+      position: absolute;
+      top: 0;
+      left: 0;
+      right: 0;
+      height: 4px;
+      background: var(--gold-gradient);
+    }
+
+    .about-card-icon {
+      font-size: 2.5rem;
+      margin-bottom: var(--spacing-4);
+    }
+
+    .about-card-title {
+      font-family: var(--font-headline);
+      font-size: 1.3rem;
+      font-weight: 700;
+      margin-bottom: var(--spacing-4);
+    }
+
+    .about-card-list {
+      list-style: none;
+      display: flex;
+      flex-direction: column;
+      gap: 0.75rem;
+    }
+
+    .about-card-list li {
+      display: flex;
+      gap: 0.75rem;
+      align-items: flex-start;
+      font-size: 0.95rem;
+      color: var(--on-surface-variant);
+    }
+
+    .about-card-list li .dot {
+      width: 8px;
+      height: 8px;
+      background: var(--primary);
+      border-radius: 50%;
+      margin-top: 7px;
+      flex-shrink: 0;
+    }
+
+    /* ============================================================
+       SECRETS CATEGORIES
+       ============================================================ */
+    .secrets-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+      gap: var(--spacing-6);
+      margin-top: var(--spacing-8);
+    }
+
+    .secret-card {
+      background: var(--surface-container-lowest);
+      border-radius: var(--radius-lg);
+      padding: var(--spacing-6);
+      box-shadow: 0 10px 30px rgba(44, 24, 16, 0.05);
+      transition: transform 0.3s ease, box-shadow 0.3s ease;
+      position: relative;
+      overflow: hidden;
+      border: 1px solid rgba(224, 201, 168, 0.15);
+    }
+
+    .secret-card::before {
+      content: '';
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 4px;
+      height: 100%;
+      background: var(--gold-gradient);
+      opacity: 0;
+      transition: opacity 0.3s ease;
+    }
+
+    .secret-card:hover {
+      transform: translateY(-6px);
+      box-shadow: 0 20px 50px rgba(44, 24, 16, 0.10);
+    }
+
+    .secret-card:hover::before {
+      opacity: 1;
+    }
+
+    .secret-icon {
+      width: 56px;
+      height: 56px;
+      border-radius: var(--radius-lg);
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-size: 1.6rem;
+      margin-bottom: var(--spacing-4);
+    }
+
+    .secret-icon.gold {
+      background: rgba(212, 160, 23, 0.12);
+    }
+
+    .secret-icon.brown {
+      background: rgba(139, 69, 19, 0.12);
+    }
+
+    .secret-icon.green {
+      background: rgba(27, 94, 32, 0.12);
+    }
+
+    .secret-icon.warm {
+      background: rgba(210, 105, 30, 0.12);
+    }
+
+    .secret-card .title-sm {
+      font-family: var(--font-headline);
+      font-weight: 700;
+      margin-bottom: 0.5rem;
+    }
+
+    .secret-card .body-md {
+      font-size: 0.9rem;
+    }
+
+    /* ============================================================
+       TESTIMONIALS
+       ============================================================ */
+    .testimonials-grid {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      gap: var(--spacing-6);
+      margin-top: var(--spacing-8);
+    }
+
+    .testimonial-card {
+      background: var(--surface-container-lowest);
+      border-radius: var(--radius-lg);
+      padding: var(--spacing-6);
+      box-shadow: 0 10px 30px rgba(44, 24, 16, 0.05);
+      border: 1px solid rgba(224, 201, 168, 0.1);
+      position: relative;
+    }
+
+    .testimonial-card::before {
+      content: '\201C';
+      font-family: var(--font-headline);
+      font-size: 4rem;
+      color: var(--primary);
+      opacity: 0.15;
+      position: absolute;
+      top: 0.5rem;
+      left: 1.2rem;
+      line-height: 1;
+    }
+
+    .stars {
+      color: var(--primary);
+      font-size: 1rem;
+      margin-bottom: 0.75rem;
+    }
+
+    .testimonial-text {
+      font-size: 0.95rem;
+      color: var(--on-surface-variant);
+      line-height: 1.7;
+      margin-bottom: 1rem;
+      position: relative;
+      z-index: 1;
+    }
+
+    .testimonial-author {
+      font-family: var(--font-headline);
+      font-size: 0.9rem;
+      font-weight: 700;
+      color: var(--on-surface);
+    }
+
+    .testimonial-author span {
+      font-weight: 400;
+      color: var(--on-surface-variant);
+      font-size: 0.8rem;
+    }
+
+    /* ============================================================
+       FAQ
+       ============================================================ */
+    .faq-list {
+      max-width: 720px;
+      margin: var(--spacing-8) auto 0;
+      display: flex;
+      flex-direction: column;
+      gap: 1rem;
+    }
+
+    .faq-item {
+      background: var(--surface-container-lowest);
+      border-radius: var(--radius-lg);
+      overflow: hidden;
+      box-shadow: 0 4px 20px rgba(44, 24, 16, 0.04);
+      border: 1px solid rgba(224, 201, 168, 0.12);
+    }
+
+    .faq-q {
+      width: 100%;
+      text-align: left;
+      background: none;
+      border: none;
+      padding: 1.25rem var(--spacing-6);
+      font-family: var(--font-headline);
+      font-size: 1rem;
+      font-weight: 700;
+      color: var(--on-surface);
+      cursor: pointer;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      gap: 1rem;
+    }
+
+    .faq-q:hover {
+      background: var(--surface-container-low);
+    }
+
+    .faq-icon {
+      font-size: 1.2rem;
+      color: var(--primary);
+      transition: transform 0.3s ease;
+      flex-shrink: 0;
+      line-height: 1;
+    }
+
+    .faq-item.open .faq-icon {
+      transform: rotate(45deg);
+    }
+
+    .faq-a {
+      max-height: 0;
+      overflow: hidden;
+      transition: max-height 0.35s ease, padding 0.35s ease;
+      padding: 0 var(--spacing-6);
+      font-size: 0.95rem;
+      color: var(--on-surface-variant);
+      line-height: 1.7;
+    }
+
+    .faq-item.open .faq-a {
+      max-height: 300px;
+      padding: 0 var(--spacing-6) 1.25rem;
+    }
+
+    /* ============================================================
+       CTA SECTION
+       ============================================================ */
+    .cta-section {
+      background: var(--dark-gradient);
+      color: var(--surface);
+      text-align: center;
+      padding: var(--spacing-24) 0;
+      position: relative;
+      overflow: hidden;
+    }
+
+    .cta-section::before {
+      content: '';
+      position: absolute;
+      top: -100px;
+      right: -100px;
+      width: 500px;
+      height: 500px;
+      background: radial-gradient(circle, rgba(212, 160, 23, 0.06) 0%, transparent 70%);
+      border-radius: 50%;
+      pointer-events: none;
+    }
+
+    .cta-section::after {
+      content: '';
+      position: absolute;
+      bottom: -100px;
+      left: -100px;
+      width: 400px;
+      height: 400px;
+      background: radial-gradient(circle, rgba(212, 160, 23, 0.06) 0%, transparent 70%);
+      border-radius: 50%;
+      pointer-events: none;
+    }
+
+    /* gold top border */
+    .cta-section .cta-border {
+      position: absolute;
+      top: 0;
+      left: 0;
+      right: 0;
+      height: 3px;
+      background: var(--gold-gradient);
+    }
+
+    .cta-section .container {
+      position: relative;
+      z-index: 1;
+    }
+
+    .cta-section .display-sm {
+      color: var(--surface);
+      margin-bottom: var(--spacing-4);
+    }
+
+    .cta-section .body-md {
+      color: rgba(255, 248, 240, 0.7);
+      max-width: 580px;
+      margin: 0 auto var(--spacing-8);
+    }
+
+    .cta-section .btn-primary {
+      font-size: 1.15rem;
+      padding: 1.1rem 3rem;
+    }
+
+    .cta-price {
+      font-family: var(--font-headline);
+      font-size: 1.1rem;
+      color: var(--primary-container);
+      margin-top: var(--spacing-6);
+    }
+
+    /* ============================================================
+       FOOTER
+       ============================================================ */
+    footer {
+      background: var(--on-surface);
+      color: rgba(255, 248, 240, 0.6);
+      padding: var(--spacing-8) 0;
+      text-align: center;
+      font-size: 0.85rem;
+    }
+
+    footer .container {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      gap: 0.75rem;
+    }
+
+    footer .footer-logo {
+      font-family: var(--font-headline);
+      font-size: 1.2rem;
+      font-weight: 800;
+      background: var(--gold-gradient);
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+      background-clip: text;
+    }
+
+    /* ============================================================
+       RESPONSIVE
+       ============================================================ */
+    @media (max-width: 1024px) {
+      .hero-inner {
+        gap: var(--spacing-8);
+      }
+    }
+
+    @media (max-width: 900px) {
+      .hero-inner {
+        grid-template-columns: 1fr;
+        text-align: center;
+      }
+
+      .hero-actions {
+        justify-content: center;
+      }
+
+      .price-block {
+        justify-content: center;
+      }
+
+      .secure-badge {
+        justify-content: center;
+      }
+
+      .hero-visual {
+        order: -1;
+      }
+
+      .book-cover-wrapper {
+        max-width: 280px;
+      }
+
+      .stats-strip .container {
+        grid-template-columns: repeat(2, 1fr);
+        gap: var(--spacing-8);
+      }
+
+      .about-grid {
+        grid-template-columns: 1fr;
+        text-align: center;
+      }
+
+      .about-features li {
+        justify-content: center;
+      }
+
+      .testimonials-grid {
+        grid-template-columns: 1fr;
+        max-width: 480px;
+        margin-left: auto;
+        margin-right: auto;
+      }
+    }
+
+    @media (max-width: 600px) {
+      .section {
+        padding: var(--spacing-12) 0;
+      }
+
+      .hero-actions {
+        flex-direction: column;
+      }
+
+      .hero-actions .btn-primary,
+      .hero-actions .btn-secondary {
+        width: 100%;
+      }
+
+      .secrets-grid {
+        grid-template-columns: 1fr;
+      }
+
+      .stats-strip .container {
+        grid-template-columns: repeat(2, 1fr);
+        gap: var(--spacing-6);
+      }
+
+      .strip-number {
+        font-size: 2rem;
+      }
+
+      .book-cover-wrapper {
+        max-width: 220px;
+      }
+
+      .price-block {
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: center;
+      }
+
+      .cta-section .btn-primary {
+        width: 100%;
+      }
+
+      .nav-logo {
+        font-size: 1.1rem;
+      }
+    }
+
+    @media (max-width: 400px) {
+      .book-cover-wrapper {
+        max-width: 180px;
+      }
+    }
+  </style>
+</head>
+
+<body>
+
+  <!-- ============================================================
+  NAV
+  ============================================================ -->
+  <nav>
+    <div class="container">
+      <a href="#" class="nav-logo" data-i18n="nav_logo">369 <span>Secrets</span></a>
+      <div class="nav-right">
+        <button class="lang-toggle" id="langToggle" title="Switch language">en</button>
+        <a href="#" class="btn-primary nav-cta" data-i18n="nav_cta">Obtenir le livre</a>
+      </div>
+    </div>
+  </nav>
+
+  <!-- ============================================================
+  HERO
+  ============================================================ -->
+  <section id="hero">
+    <div class="container">
+      <div class="hero-inner">
+        <!-- Left column: text -->
+        <div class="hero-text">
+          <div class="hero-badge" data-i18n="hero_badge">📖 Nouvelle édition</div>
+          <h1 class="display-lg hero-title" data-i18n="hero_title">Les <em>369</em> SURPUISSANTS SECRETS AFRICAIN</h1>
+          <p class="body-md hero-desc" data-i18n="hero_subtitle">
+            Découvrez les savoirs ancestraux africains qui ont traversé les siècles. Un livre qui révèle 369 secrets
+            soigneusement transmis de génération en génération.
+          </p>
+          <div class="price-block">
+            <span class="price-now" data-i18n="price_now">19 071 FCFA</span>
+            <span class="price-old" data-i18n="price_old">58 000 FCFA</span>
+            <span class="price-badge" data-i18n="price_badge">-67%</span>
+          </div>
+          <div class="hero-actions">
+            <a href="#" class="btn-primary" data-i18n="hero_cta">✅ Je veux ce livre maintenant</a>
+          </div>
+          <div class="secure-badge">
+            <span class="lock-icon">🔒</span>
+            <span data-i18n="hero_secure">Paiement 100% sécurisé — Accès immédiat</span>
+          </div>
+        </div>
+
+        <!-- Right column: book cover -->
+        <div class="hero-visual">
+          <div class="book-cover-wrapper">
+            <!-- Replace the placeholder with your actual cover image -->
+            <!-- <img src="assets/couverture.jpg" alt="Les 369 SURPUISSANTS SECRETS AFRICAIN" /> -->
+            <div class="book-cover-placeholder">
+              <div class="book-icon">📘</div>
+              <div class="book-title-placeholder">369</div>
+              <div style="font-size:0.85rem;opacity:0.6;margin-bottom:0.5rem;font-family:var(--font-headline);">
+                SURPUISSANTS SECRETS
+              </div>
+              <div class="book-subtitle-placeholder">Les savoirs ancestraux africains</div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============================================================
+  STATS STRIP
+  ============================================================ -->
+  <section class="stats-strip">
+    <div class="container">
+      <div>
+        <span class="strip-number" data-i18n="stat_1_number">369</span>
+        <span class="strip-label" data-i18n="stat_1_label">Secrets révélés</span>
+      </div>
+      <div>
+        <span class="strip-number" data-i18n="stat_2_number">12</span>
+        <span class="strip-label" data-i18n="stat_2_label">Chapitres complets</span>
+      </div>
+      <div>
+        <span class="strip-number" data-i18n="stat_3_number">7</span>
+        <span class="strip-label" data-i18n="stat_3_label">Catégories de sagesse</span>
+      </div>
+      <div>
+        <span class="strip-number" data-i18n="stat_4_number">+5000</span>
+        <span class="strip-label" data-i18n="stat_4_label">Lecteurs satisfaits</span>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============================================================
+  ABOUT SECTION
+  ============================================================ -->
+  <section class="section" id="about">
+    <div class="pattern-bg">
+      <div class="diamond"></div>
+      <div class="diamond"></div>
+      <div class="diamond"></div>
+      <div class="diamond"></div>
+      <div class="circle-dot"></div>
+      <div class="circle-dot"></div>
+      <div class="circle-dot"></div>
+      <div class="circle-dot"></div>
+    </div>
+    <div class="container">
+      <div class="section-title">
+        <h2 class="display-sm" data-i18n="about_title">Qu'est-ce que ce livre va vous apporter ?</h2>
+      </div>
+      <p class="body-md section-desc" data-i18n="about_desc">
+        Ce livre est bien plus qu'un simple recueil de connaissances. Il est le fruit d'années de recherches sur les
+        traditions, la spiritualité et la sagesse africaine.
+      </p>
+      <div class="about-grid">
+        <div>
+          <ul class="about-features">
+            <li>
+              <span class="feature-check">✦</span>
+              <span data-i18n="about_feature_1">Des secrets de prospérité et d'abondance</span>
+            </li>
+            <li>
+              <span class="feature-check">✦</span>
+              <span data-i18n="about_feature_2">Des rituels de protection et de chance</span>
+            </li>
+            <li>
+              <span class="feature-check">✦</span>
+              <span data-i18n="about_feature_3">Des techniques de développement personnel</span>
+            </li>
+            <li>
+              <span class="feature-check">✦</span>
+              <span data-i18n="about_feature_4">Des connaissances spirituelles authentiques</span>
+            </li>
+          </ul>
+        </div>
+        <div class="about-visual">
+          <div class="about-card">
+            <div class="about-card-icon">📜</div>
+            <div class="about-card-title">Savoir ancestral</div>
+            <ul class="about-card-list">
+              <li><span class="dot"></span> Transmis depuis des générations</li>
+              <li><span class="dot"></span> Validé par des centaines de lecteurs</li>
+              <li><span class="dot"></span> Accessible à tous, débutants comme initiés</li>
+              <li><span class="dot"></span> Applicable dans la vie quotidienne</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============================================================
+  SECRETS CATEGORIES
+  ============================================================ -->
+  <section class="section section-alt" id="secrets">
+    <div class="container">
+      <div class="section-title">
+        <h2 class="display-sm" data-i18n="secrets_title">Les 7 Catégories de Secrets</h2>
+      </div>
+      <p class="body-md section-desc" data-i18n="secrets_desc">
+        Chaque catégorie renferme des dizaines de secrets soigneusement classés pour vous guider pas à pas.
+      </p>
+      <div class="secrets-grid">
+        <div class="secret-card">
+          <div class="secret-icon gold">💰</div>
+          <div class="title-sm" data-i18n="category_1_title">Prospérité & Richesse</div>
+          <div class="body-md" data-i18n="category_1_desc">Attirez l'abondance financière dans votre vie grâce à des secrets ancestraux.</div>
+        </div>
+        <div class="secret-card">
+          <div class="secret-icon brown">🛡️</div>
+          <div class="title-sm" data-i18n="category_2_title">Protection & Chance</div>
+          <div class="body-md" data-i18n="category_2_desc">Protégez-vous des énergies négatives et attirez la chance.</div>
+        </div>
+        <div class="secret-card">
+          <div class="secret-icon gold">❤️</div>
+          <div class="title-sm" data-i18n="category_3_title">Amour & Relations</div>
+          <div class="body-md" data-i18n="category_3_desc">Harmonisez vos relations et trouvez l'amour véritable.</div>
+        </div>
+        <div class="secret-card">
+          <div class="secret-icon green">🌿</div>
+          <div class="title-sm" data-i18n="category_4_title">Santé & Vitalité</div>
+          <div class="body-md" data-i18n="category_4_desc">Des secrets de guérison naturelle pour une santé rayonnante.</div>
+        </div>
+        <div class="secret-card">
+          <div class="secret-icon gold">🏆</div>
+          <div class="title-sm" data-i18n="category_5_title">Réussite & Pouvoir</div>
+          <div class="body-md" data-i18n="category_5_desc">Développez votre influence et atteignez vos objectifs.</div>
+        </div>
+        <div class="secret-card">
+          <div class="secret-icon warm">✨</div>
+          <div class="title-sm" data-i18n="category_6_title">Spiritualité & Éveil</div>
+          <div class="body-md" data-i18n="category_6_desc">Connectez-vous aux forces spirituelles qui vous entourent.</div>
+        </div>
+        <div class="secret-card" style="grid-column: 1 / -1; max-width: 500px; margin: 0 auto; width: 100%;">
+          <div class="secret-icon brown">📚</div>
+          <div class="title-sm" data-i18n="category_7_title">Sagesse & Connaissance</div>
+          <div class="body-md" data-i18n="category_7_desc">Accédez à la sagesse ancestrale des anciens d'Afrique.</div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============================================================
+  TESTIMONIALS
+  ============================================================ -->
+  <section class="section" id="testimonials">
+    <div class="container">
+      <div class="section-title">
+        <h2 class="display-sm" data-i18n="testimonials_title">Ce que disent nos lecteurs</h2>
+      </div>
+      <div class="testimonials-grid">
+        <div class="testimonial-card">
+          <div class="stars">★★★★★</div>
+          <div class="testimonial-text" data-i18n="testimonial_1_text">
+            Depuis que j'ai appliqué les secrets de ce livre, ma vie a complètement changé. La chance est devenue mon
+            quotidien !
+          </div>
+          <div class="testimonial-author" data-i18n="testimonial_1_author">Mamadou K.</div>
+        </div>
+        <div class="testimonial-card">
+          <div class="stars">★★★★★</div>
+          <div class="testimonial-text" data-i18n="testimonial_2_text">
+            Un livre incroyablement riche. Chaque page est une révélation. Je le recommande à tous ceux qui cherchent à
+            améliorer leur vie.
+          </div>
+          <div class="testimonial-author" data-i18n="testimonial_2_author">Aminata S.</div>
+        </div>
+        <div class="testimonial-card">
+          <div class="stars">★★★★★</div>
+          <div class="testimonial-text" data-i18n="testimonial_3_text">
+            J'ai offert ce livre à plusieurs membres de ma famille. Les résultats sont stupéfiants. Un véritable trésor
+            de sagesse africaine.
+          </div>
+          <div class="testimonial-author" data-i18n="testimonial_3_author">Koffi B.</div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============================================================
+  FAQ
+  ============================================================ -->
+  <section class="section section-alt" id="faq">
+    <div class="container">
+      <div class="section-title">
+        <h2 class="display-sm" data-i18n="faq_title">Questions Fréquentes</h2>
+      </div>
+      <div class="faq-list">
+        <div class="faq-item">
+          <button class="faq-q" onclick="toggleFaq(this)">
+            <span data-i18n="faq_1_q">Le livre est-il disponible en version numérique ?</span>
+            <span class="faq-icon">+</span>
+          </button>
+          <div class="faq-a" data-i18n="faq_1_a">
+            Oui, le livre est disponible en format PDF numérique que vous recevrez immédiatement après votre commande.
+            Vous pouvez le lire sur votre téléphone, tablette ou ordinateur.
+          </div>
+        </div>
+        <div class="faq-item">
+          <button class="faq-q" onclick="toggleFaq(this)">
+            <span data-i18n="faq_2_q">Comment vais-je recevoir le livre après mon achat ?</span>
+            <span class="faq-icon">+</span>
+          </button>
+          <div class="faq-a" data-i18n="faq_2_a">
+            Après votre paiement, vous recevrez un lien de téléchargement direct par email. L'accès est instantané et
+            vous pouvez télécharger le livre immédiatement.
+          </div>
+        </div>
+        <div class="faq-item">
+          <button class="faq-q" onclick="toggleFaq(this)">
+            <span data-i18n="faq_3_q">Y a-t-il une garantie satisfait ou remboursé ?</span>
+            <span class="faq-icon">+</span>
+          </button>
+          <div class="faq-a" data-i18n="faq_3_a">
+            Absolument ! Nous offrons une garantie satisfait ou remboursé de 7 jours. Si vous n'êtes pas entièrement
+            satisfait, nous vous remboursons intégralement.
+          </div>
+        </div>
+        <div class="faq-item">
+          <button class="faq-q" onclick="toggleFaq(this)">
+            <span data-i18n="faq_4_q">Puis-je partager le livre avec mes proches ?</span>
+            <span class="faq-icon">+</span>
+          </button>
+          <div class="faq-a" data-i18n="faq_4_a">
+            Le livre est pour usage personnel uniquement. Cependant, vous pouvez offrir un exemplaire à vos proches en
+            commandant pour eux.
+          </div>
+        </div>
+        <div class="faq-item">
+          <button class="faq-q" onclick="toggleFaq(this)">
+            <span data-i18n="faq_5_q">Le paiement est-il sécurisé ?</span>
+            <span class="faq-icon">+</span>
+          </button>
+          <div class="faq-a" data-i18n="faq_5_a">
+            Oui, le paiement est 100% sécurisé. Vos informations bancaires sont cryptées et jamais partagées avec des
+            tiers.
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============================================================
+  CTA SECTION
+  ============================================================ -->
+  <section class="cta-section">
+    <div class="cta-border"></div>
+    <div class="container">
+      <h2 class="display-sm" data-i18n="cta_title">Prêt à transformer votre vie ?</h2>
+      <p class="body-md" data-i18n="cta_desc">
+        Obtenez votre exemplaire des 369 SURPUISSANTS SECRETS AFRICAIN dès maintenant et commencez votre transformation
+        dès aujourd'hui.
+      </p>
+      <a href="#" class="btn-primary" data-i18n="cta_btn">🛒 Commander maintenant — 19 071 FCFA</a>
+      <div class="cta-price" data-i18n="price_now">19 071 FCFA</div>
+    </div>
+  </section>
+
+  <!-- ============================================================
+  FOOTER
+  ============================================================ -->
+  <footer>
+    <div class="container">
+      <div class="footer-logo">369 Secrets</div>
+      <div data-i18n="footer_rights">© 2026 369 Secrets. Tous droits réservés.</div>
+    </div>
+  </footer>
+
+  <!-- ============================================================
+  SCROLL TO TOP
+  ============================================================ -->
+  <div class="scroll-top-btn" id="scrollTopBtn" onclick="window.scrollTo({top:0,behavior:'smooth'})">↑</div>
+
+  <!-- ============================================================
+  SCRIPTS
+  ============================================================ -->
+  <script src="i18n.js"></script>
+  <script>
+    // ---- Scroll to top button ----
+    window.addEventListener('scroll', function () {
+      const btn = document.getElementById('scrollTopBtn');
+      if (window.scrollY > 400) {
+        btn.classList.add('visible');
+      } else {
+        btn.classList.remove('visible');
+      }
+    });
+
+    // ---- FAQ toggle ----
+    function toggleFaq(btn) {
+      const item = btn.closest('.faq-item');
+      const isOpen = item.classList.contains('open');
+
+      // Close all
+      document.querySelectorAll('.faq-item.open').forEach(el => {
+        el.classList.remove('open');
+      });
+
+      // Open this one if it was closed
+      if (!isOpen) {
+        item.classList.add('open');
+      }
+    }
+  </script>
+</body>
+
+</html>
