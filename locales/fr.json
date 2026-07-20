@@ -2,10 +2,10 @@
   "nav_logo": "369 Secrets",
   "nav_cta": "Obtenir le livre",
 
-  "hero_badge": "📖 Nouvelle édition",
+  "hero_badge": "Nouvelle édition",
   "hero_title": "Les <em>369</em> SURPUISSANTS SECRETS AFRICAIN",
   "hero_subtitle": "Découvrez les savoirs ancestraux africains qui ont traversé les siècles. Un livre qui révèle 369 secrets soigneusement transmis de génération en génération.",
-  "hero_cta": "✅ Je veux ce livre maintenant",
+  "hero_cta": "Je veux ce livre maintenant",
   "hero_secure": "Paiement 100% sécurisé — Accès immédiat",
 
   "price_now": "19 071 FCFA",
@@ -21,6 +21,9 @@
   "stat_4_number": "+5000",
   "stat_4_label": "Lecteurs satisfaits",
 
+  "video_title": "Regardez la Présentation",
+  "video_desc": "Découvrez en vidéo ce que ce livre peut vous apporter et comment il a déjà transformé des milliers de vies.",
+
   "about_title": "Qu'est-ce que ce livre va vous apporter ?",
   "about_desc": "Ce livre est bien plus qu'un simple recueil de connaissances. Il est le fruit d'années de recherches sur les traditions, la spiritualité et la sagesse africaine. Chaque secret est présenté de manière claire et pratique pour que vous puissiez l'appliquer dans votre vie quotidienne.",
   "about_feature_1": "Des secrets de prospérité et d'abondance",
@@ -28,7 +31,7 @@
   "about_feature_3": "Des techniques de développement personnel",
   "about_feature_4": "Des connaissances spirituelles authentiques",
 
-  "author_title": "🍀 Note de l'Auteur",
+  "author_title": "Note de l'Auteur",
   "author_text": "L'auteur <strong>Mr Livre</strong> ne s'adresse qu'à cette Élite Africaine, qui cherche inlassablement la connaissance et ne lésine pas sur les moyens pour l'acquérir. Ce sont ces personnes là, les plus chanceuses, les plus déterminées, celles qui possèdent l'éthique et l'état d'esprit nécessaire, qui méritent de détenir ce livre.",
 
   "secrets_title": "Les 7 Catégories de Secrets",
@@ -66,7 +69,7 @@
   "testi_5_text": "J'étais victime de beaucoup de malchance et je ne savais pas comment m'en protéger. J'ai essayé de trouver des solutions, mais rien ne fonctionnait. Un jour, j'ai découvert le livre \"369 surpuissant secret Africain\" et j'ai décidé d'essayer la recette pour la protection. Depuis que j'utilise cette recette, je n'ai plus eu aucun problème. Je suis tellement reconnaissant pour ce livre.",
   "testi_5_author": "Ibrahim, 38 ans, Accra, Ghana",
 
-  "testi_other_title": "👇🏼 Autres Témoignages 👇🏼",
+  "testi_other_title": "Autres Témoignages",
 
   "testi_other_1": "Après avoir suivi les conseils des 369 surpuissant Secret d'Afrique, j'ai enfin trouvé un emploi et mes finances se stabilisent. Un vrai miracle !",
   "testi_other_1_author": "Amina Diallo",
@@ -102,7 +105,7 @@
 
   "cta_title": "Prêt à transformer votre vie ?",
   "cta_desc": "Obtenez votre exemplaire des 369 SURPUISSANTS SECRETS AFRICAIN dès maintenant et commencez votre transformation dès aujourd'hui.",
-  "cta_btn": "🛒 Commander maintenant — 19 071 FCFA",
+  "cta_btn": "Commander maintenant — 19 071 FCFA",
 
   "footer_rights": "© 2026 369 Secrets. Tous droits réservés."
 }

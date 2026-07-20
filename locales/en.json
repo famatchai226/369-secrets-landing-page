@@ -2,10 +2,10 @@
   "nav_logo": "369 Secrets",
   "nav_cta": "Get the book",
 
-  "hero_badge": "📖 New edition",
+  "hero_badge": "New edition",
   "hero_title": "The <em>369</em> SUPER-POWERFUL AFRICAN SECRETS",
   "hero_subtitle": "Discover the ancient African knowledge that has crossed centuries. A book that reveals 369 secrets carefully passed down from generation to generation.",
-  "hero_cta": "✅ I want this book now",
+  "hero_cta": "I want this book now",
   "hero_secure": "100% secure payment — Instant access",
 
   "price_now": "19,071 FCFA",
@@ -21,6 +21,9 @@
   "stat_4_number": "+5,000",
   "stat_4_label": "Satisfied readers",
 
+  "video_title": "Watch the Presentation",
+  "video_desc": "Discover in video what this book can bring you and how it has already transformed thousands of lives.",
+
   "about_title": "What will this book bring you?",
   "about_desc": "This book is much more than a simple collection of knowledge. It is the result of years of research on African traditions, spirituality and wisdom. Each secret is presented in a clear and practical way so that you can apply it in your daily life.",
   "about_feature_1": "Secrets of prosperity and abundance",
@@ -28,7 +31,7 @@
   "about_feature_3": "Personal development techniques",
   "about_feature_4": "Authentic spiritual knowledge",
 
-  "author_title": "🍀 Author's Note",
+  "author_title": "Author's Note",
   "author_text": "The author <strong>Mr Livre</strong> only addresses himself to this African Elite, who tirelessly seeks knowledge and spares no expense to acquire it. These are the luckiest, most determined people, those who possess the necessary ethics and mindset, who deserve to hold this book.",
 
   "secrets_title": "The 7 Categories of Secrets",
@@ -66,7 +69,7 @@
   "testi_5_text": "I was a victim of a lot of bad luck and didn't know how to protect myself. I tried to find solutions, but nothing worked. One day, I discovered the book \"369 super powerful African secrets\" and decided to try the protection recipe. Since using this recipe, I haven't had any more problems. I am so grateful for this book.",
   "testi_5_author": "Ibrahim, 38 years old, Accra, Ghana",
 
-  "testi_other_title": "👇🏼 More Testimonials 👇🏼",
+  "testi_other_title": "More Testimonials",
 
   "testi_other_1": "After following the advice of the 369 super powerful African Secrets, I finally found a job and my finances are stabilizing. A real miracle!",
   "testi_other_1_author": "Amina Diallo",
@@ -102,7 +105,7 @@
 
   "cta_title": "Ready to transform your life?",
   "cta_desc": "Get your copy of The 369 SUPER-POWERFUL AFRICAN SECRETS now and start your transformation today.",
-  "cta_btn": "🛒 Order now — 19,071 FCFA",
+  "cta_btn": "Order now — 19,071 FCFA",
 
   "footer_rights": "© 2026 369 Secrets. All rights reserved."
 }
