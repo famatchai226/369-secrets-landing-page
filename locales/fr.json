@@ -28,6 +28,9 @@
   "about_feature_3": "Des techniques de développement personnel",
   "about_feature_4": "Des connaissances spirituelles authentiques",
 
+  "author_title": "🍀 Note de l'Auteur",
+  "author_text": "L'auteur <strong>Mr Livre</strong> ne s'adresse qu'à cette Élite Africaine, qui cherche inlassablement la connaissance et ne lésine pas sur les moyens pour l'acquérir. Ce sont ces personnes là, les plus chanceuses, les plus déterminées, celles qui possèdent l'éthique et l'état d'esprit nécessaire, qui méritent de détenir ce livre.",
+
   "secrets_title": "Les 7 Catégories de Secrets",
   "secrets_desc": "Chaque catégorie renferme des dizaines de secrets soigneusement classés pour vous guider pas à pas.",
 
@@ -46,13 +49,42 @@
   "category_7_title": "Sagesse & Connaissance",
   "category_7_desc": "Accédez à la sagesse ancestrale des anciens d'Afrique.",
 
-  "testimonials_title": "Ce que disent nos lecteurs",
-  "testimonial_1_text": "Depuis que j'ai appliqué les secrets de ce livre, ma vie a complètement changé. La chance est devenue mon quotidien !",
-  "testimonial_1_author": "Mamadou K.",
-  "testimonial_2_text": "Un livre incroyablement riche. Chaque page est une révélation. Je le recommande à tous ceux qui cherchent à améliorer leur vie.",
-  "testimonial_2_author": "Aminata S.",
-  "testimonial_3_text": "J'ai offert ce livre à plusieurs membres de ma famille. Les résultats sont stupéfiants. Un véritable trésor de sagesse africaine.",
-  "testimonial_3_author": "Koffi B.",
+  "testimonials_subtitle": "Quelques Témoignages de lecteurs ayant utilisé les recettes du livre avec succès",
+
+  "testi_1_text": "J'étais au chômage depuis des mois et je commençais à perdre espoir. J'ai essayé toutes les méthodes possibles pour trouver un nouvel emploi, mais rien ne fonctionnait. Un jour, j'ai découvert le livre \"369 surpuissant secret Africain\" et j'ai décidé d'essayer la recette pour attirer la chance. Quelques jours plus tard, j'ai été contacté par une entreprise qui m'a proposé un entretien d'embauche. J'ai obtenu le poste et je suis maintenant plus heureux que jamais. Merci Mamadou !",
+  "testi_1_author": "Amadou, 32 ans, Dakar, Sénégal",
+
+  "testi_2_text": "J'étais célibataire depuis longtemps et je commençais à me sentir seule. J'ai essayé de rencontrer des gens, mais je n'arrivais pas à trouver la bonne personne. Un jour, j'ai lu le livre \"369 surpuissant secret Africain\" et j'ai décidé d'essayer la recette pour trouver l'amour. Quelques semaines plus tard, j'ai rencontré un homme merveilleux et nous sommes maintenant en couple. Je suis tellement heureuse d'avoir trouvé l'amour grâce à ce livre.",
+  "testi_2_author": "Fatoumata, 28 ans, Bamako, Mali",
+
+  "testi_3_text": "J'avais beaucoup de problèmes d'argent et je ne savais pas comment m'en sortir. J'ai essayé de trouver des solutions, mais rien ne fonctionnait. Un jour, j'ai découvert le livre \"369 surpuissant secret Africain\" et j'ai décidé d'essayer la recette pour la prospérité. Quelques mois plus tard, j'ai trouvé un nouveau travail qui me permet de gagner plus d'argent. J'ai également gagné à la loterie et j'ai pu rembourser toutes mes dettes. Je suis tellement reconnaissant pour ce livre.",
+  "testi_3_author": "Moussa, 45 ans, Abidjan, Côte d'Ivoire",
+
+  "testi_4_text": "J'étais constamment malade et je ne savais pas quoi faire. J'ai essayé de me soigner avec des médicaments, mais rien ne fonctionnait. Un jour, j'ai lu le livre \"369 surpuissant secret Africain\" et j'ai décidé d'essayer la recette pour la guérison. Quelques jours plus tard, je me suis sentie beaucoup mieux et j'ai retrouvé toute mon énergie. Je suis tellement heureuse d'être enfin guérie.",
+  "testi_4_author": "Aïcha, 52 ans, Ouagadougou, Burkina Faso",
+
+  "testi_5_text": "J'étais victime de beaucoup de malchance et je ne savais pas comment m'en protéger. J'ai essayé de trouver des solutions, mais rien ne fonctionnait. Un jour, j'ai découvert le livre \"369 surpuissant secret Africain\" et j'ai décidé d'essayer la recette pour la protection. Depuis que j'utilise cette recette, je n'ai plus eu aucun problème. Je suis tellement reconnaissant pour ce livre.",
+  "testi_5_author": "Ibrahim, 38 ans, Accra, Ghana",
+
+  "testi_other_title": "👇🏼 Autres Témoignages 👇🏼",
+
+  "testi_other_1": "Après avoir suivi les conseils des 369 surpuissant Secret d'Afrique, j'ai enfin trouvé un emploi et mes finances se stabilisent. Un vrai miracle !",
+  "testi_other_1_author": "Amina Diallo",
+  "testi_other_2": "Les rituels pour l'amour m'ont aidé à renforcer ma relation. Mon partenaire et moi sommes plus proches que jamais !",
+  "testi_other_2_author": "Kwame Mensah",
+  "testi_other_3": "J'ai utilisé les techniques de protection du livre, et je me sens tellement plus en sécurité. C'est comme un bouclier autour de moi !",
+  "testi_other_3_author": "Fatou Ndiaye",
+  "testi_other_4": "Depuis que j'applique les conseils du livre, des opportunités incroyables se présentent à moi. Je n'aurais jamais cru à une telle magie !",
+  "testi_other_4_author": "Thabo Nkosi",
+  "testi_other_5": "Ce livre m'a apporté la paix intérieure. J'ai appris à gérer mes émotions et à attirer des énergies positives.",
+  "testi_other_5_author": "Zainab Abubakar",
+  "testi_other_6": "En tant que praticien spirituel, je recommande vivement ce livre. Les rituels sont puissants et efficaces !",
+  "testi_other_6_author": "Dr. Kofi",
+
+  "testi_privacy": "Ils ont donné leur autorisation pour préciser leur nom dans les témoignages. La confidentialité de nos clients est primordiale.",
+
+  "proofs_title": "Preuves d'Achat & Retours Clients",
+  "proofs_desc": "Des milliers de lecteurs ont déjà transformé leur vie grâce à ce livre. Voici quelques preuves de leurs achats et retours satisfaits.",
 
   "faq_title": "Questions Fréquentes",
   "faq_1_q": "Le livre est-il disponible en version numérique ?",
@@ -65,6 +97,8 @@
   "faq_4_a": "Le livre est pour usage personnel uniquement. Cependant, vous pouvez offrir un exemplaire à vos proches en commandant pour eux.",
   "faq_5_q": "Le paiement est-il sécurisé ?",
   "faq_5_a": "Oui, le paiement est 100% sécurisé. Vos informations bancaires sont cryptées et jamais partagées avec des tiers.",
+
+  "final_quote": "Les Masses douteront, Les Élites agiront. La dernière question est : À quel groupe appartenez-vous ?",
 
   "cta_title": "Prêt à transformer votre vie ?",
   "cta_desc": "Obtenez votre exemplaire des 369 SURPUISSANTS SECRETS AFRICAIN dès maintenant et commencez votre transformation dès aujourd'hui.",

@@ -28,6 +28,9 @@
   "about_feature_3": "Personal development techniques",
   "about_feature_4": "Authentic spiritual knowledge",
 
+  "author_title": "🍀 Author's Note",
+  "author_text": "The author <strong>Mr Livre</strong> only addresses himself to this African Elite, who tirelessly seeks knowledge and spares no expense to acquire it. These are the luckiest, most determined people, those who possess the necessary ethics and mindset, who deserve to hold this book.",
+
   "secrets_title": "The 7 Categories of Secrets",
   "secrets_desc": "Each category contains dozens of secrets carefully classified to guide you step by step.",
 
@@ -46,13 +49,42 @@
   "category_7_title": "Wisdom & Knowledge",
   "category_7_desc": "Access the ancestral wisdom of ancient Africa.",
 
-  "testimonials_title": "What our readers say",
-  "testimonial_1_text": "Since I applied the secrets from this book, my life has completely changed. Luck has become my daily reality!",
-  "testimonial_1_author": "Mamadou K.",
-  "testimonial_2_text": "An incredibly rich book. Every page is a revelation. I recommend it to anyone looking to improve their life.",
-  "testimonial_2_author": "Aminata S.",
-  "testimonial_3_text": "I gave this book to several family members. The results are astounding. A true treasure of African wisdom.",
-  "testimonial_3_author": "Koffi B.",
+  "testimonials_subtitle": "Testimonials from readers who have successfully used the book's recipes",
+
+  "testi_1_text": "I had been unemployed for months and was starting to lose hope. I tried every possible method to find a new job, but nothing worked. One day, I discovered the book \"369 super powerful African secrets\" and decided to try the recipe to attract luck. A few days later, I was contacted by a company that offered me a job interview. I got the position and am now happier than ever. Thank you!",
+  "testi_1_author": "Amadou, 32 years old, Dakar, Senegal",
+
+  "testi_2_text": "I had been single for a long time and was starting to feel lonely. I tried to meet people, but couldn't find the right person. One day, I read the book \"369 super powerful African secrets\" and decided to try the recipe to find love. A few weeks later, I met a wonderful man and we are now a couple. I am so happy to have found love through this book.",
+  "testi_2_author": "Fatoumata, 28 years old, Bamako, Mali",
+
+  "testi_3_text": "I had a lot of money problems and didn't know how to get out of them. I tried to find solutions, but nothing worked. One day, I discovered the book \"369 super powerful African secrets\" and decided to try the recipe for prosperity. A few months later, I found a new job that allows me to earn more money. I also won the lottery and was able to pay off all my debts. I am so grateful for this book.",
+  "testi_3_author": "Moussa, 45 years old, Abidjan, Ivory Coast",
+
+  "testi_4_text": "I was constantly sick and didn't know what to do. I tried to treat myself with medication, but nothing worked. One day, I read the book \"369 super powerful African secrets\" and decided to try the recipe for healing. A few days later, I felt much better and regained all my energy. I am so happy to finally be healed.",
+  "testi_4_author": "Aïcha, 52 years old, Ouagadougou, Burkina Faso",
+
+  "testi_5_text": "I was a victim of a lot of bad luck and didn't know how to protect myself. I tried to find solutions, but nothing worked. One day, I discovered the book \"369 super powerful African secrets\" and decided to try the protection recipe. Since using this recipe, I haven't had any more problems. I am so grateful for this book.",
+  "testi_5_author": "Ibrahim, 38 years old, Accra, Ghana",
+
+  "testi_other_title": "👇🏼 More Testimonials 👇🏼",
+
+  "testi_other_1": "After following the advice of the 369 super powerful African Secrets, I finally found a job and my finances are stabilizing. A real miracle!",
+  "testi_other_1_author": "Amina Diallo",
+  "testi_other_2": "The love rituals helped me strengthen my relationship. My partner and I are closer than ever!",
+  "testi_other_2_author": "Kwame Mensah",
+  "testi_other_3": "I used the protection techniques from the book, and I feel so much safer. It's like a shield around me!",
+  "testi_other_3_author": "Fatou Ndiaye",
+  "testi_other_4": "Since applying the advice from the book, incredible opportunities have come my way. I never would have believed such magic!",
+  "testi_other_4_author": "Thabo Nkosi",
+  "testi_other_5": "This book brought me inner peace. I learned to manage my emotions and attract positive energies.",
+  "testi_other_5_author": "Zainab Abubakar",
+  "testi_other_6": "As a spiritual practitioner, I highly recommend this book. The rituals are powerful and effective!",
+  "testi_other_6_author": "Dr. Kofi",
+
+  "testi_privacy": "They gave their authorization to use their names in the testimonials. Our clients' confidentiality is paramount.",
+
+  "proofs_title": "Purchase Proofs & Client Feedback",
+  "proofs_desc": "Thousands of readers have already transformed their lives with this book. Here are some proofs of their purchases and satisfied feedback.",
 
   "faq_title": "Frequently Asked Questions",
   "faq_1_q": "Is the book available in digital format?",
@@ -65,6 +97,8 @@
   "faq_4_a": "The book is for personal use only. However, you can gift a copy to your loved ones by ordering for them.",
   "faq_5_q": "Is the payment secure?",
   "faq_5_a": "Yes, payment is 100% secure. Your banking information is encrypted and never shared with third parties.",
+
+  "final_quote": "The Masses will doubt, The Elite will act. The last question is: Which group do you belong to?",
 
   "cta_title": "Ready to transform your life?",
   "cta_desc": "Get your copy of The 369 SUPER-POWERFUL AFRICAN SECRETS now and start your transformation today.",

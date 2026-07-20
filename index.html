@@ -1129,6 +1129,316 @@
     }
 
     /* ============================================================
+       AUTHOR NOTE
+       ============================================================ */
+    .author-section {
+      background: var(--dark-gradient);
+      color: var(--surface);
+      text-align: center;
+      padding: var(--spacing-20) 0;
+      position: relative;
+      overflow: hidden;
+    }
+
+    .author-section::before {
+      content: '';
+      position: absolute;
+      top: 0;
+      left: 0;
+      right: 0;
+      height: 3px;
+      background: var(--gold-gradient);
+    }
+
+    .author-section .display-sm {
+      color: var(--surface);
+      margin-bottom: var(--spacing-6);
+    }
+
+    .author-section .author-text {
+      max-width: 760px;
+      margin: 0 auto;
+      font-size: 1.1rem;
+      color: rgba(255, 248, 240, 0.85);
+      line-height: 1.8;
+    }
+
+    .author-section .author-text strong {
+      color: var(--primary-container);
+    }
+
+    .author-section .quill-icon {
+      font-size: 3rem;
+      margin-bottom: var(--spacing-4);
+    }
+
+    /* ============================================================
+       TESTIMONIALS — Detailed
+       ============================================================ */
+    .testimonials-detailed {
+      display: flex;
+      flex-direction: column;
+      gap: var(--spacing-6);
+      margin-top: var(--spacing-8);
+      max-width: 800px;
+      margin-left: auto;
+      margin-right: auto;
+    }
+
+    .testimonial-detailed-card {
+      background: var(--surface-container-lowest);
+      border-radius: var(--radius-lg);
+      padding: var(--spacing-6);
+      box-shadow: 0 10px 30px rgba(44, 24, 16, 0.05);
+      border: 1px solid rgba(224, 201, 168, 0.1);
+      position: relative;
+    }
+
+    .testimonial-detailed-card::before {
+      content: '\201C';
+      font-family: var(--font-headline);
+      font-size: 3.5rem;
+      color: var(--primary);
+      opacity: 0.12;
+      position: absolute;
+      top: 0.5rem;
+      left: 1.2rem;
+      line-height: 1;
+    }
+
+    .testimonial-detailed-card .stars {
+      margin-bottom: 0.75rem;
+    }
+
+    .testimonial-detailed-card .testimonial-text {
+      font-size: 0.95rem;
+      color: var(--on-surface-variant);
+      line-height: 1.7;
+      margin-bottom: 0.75rem;
+      position: relative;
+      z-index: 1;
+    }
+
+    .testimonial-detailed-card .testimonial-author {
+      font-family: var(--font-headline);
+      font-size: 0.95rem;
+      font-weight: 700;
+      color: var(--on-surface);
+    }
+
+    /* ============================================================
+       MINI TESTIMONIALS (Grid of short quotes)
+       ============================================================ */
+    .testimonials-other-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+      gap: var(--spacing-6);
+      margin-top: var(--spacing-6);
+    }
+
+    .testimonial-mini-card {
+      background: var(--surface-container-lowest);
+      border-radius: var(--radius-lg);
+      padding: var(--spacing-5);
+      box-shadow: 0 6px 20px rgba(44, 24, 16, 0.04);
+      border: 1px solid rgba(224, 201, 168, 0.12);
+      position: relative;
+      transition: transform 0.2s ease;
+    }
+
+    .testimonial-mini-card:hover {
+      transform: translateY(-3px);
+    }
+
+    .testimonial-mini-card::before {
+      content: '\201C';
+      font-family: var(--font-headline);
+      font-size: 2.5rem;
+      color: var(--primary);
+      opacity: 0.1;
+      position: absolute;
+      top: 0.2rem;
+      left: 0.8rem;
+      line-height: 1;
+    }
+
+    .testimonial-mini-card .testimonial-text {
+      font-size: 0.9rem;
+      color: var(--on-surface-variant);
+      line-height: 1.6;
+      margin-bottom: 0.75rem;
+      position: relative;
+      z-index: 1;
+      font-style: italic;
+    }
+
+    .testimonial-mini-card .testimonial-author {
+      font-family: var(--font-headline);
+      font-size: 0.85rem;
+      font-weight: 700;
+      color: var(--primary);
+    }
+
+    .testimonial-privacy {
+      text-align: center;
+      font-size: 0.8rem;
+      color: var(--on-surface-variant);
+      font-style: italic;
+      margin-top: var(--spacing-6);
+      opacity: 0.7;
+    }
+
+    /* ============================================================
+       PROOFS GALLERY
+       ============================================================ */
+    .proofs-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+      gap: var(--spacing-4);
+      margin-top: var(--spacing-8);
+    }
+
+    .proof-item {
+      border-radius: var(--radius-lg);
+      overflow: hidden;
+      box-shadow: 0 8px 24px rgba(44, 24, 16, 0.08);
+      border: 1px solid rgba(224, 201, 168, 0.15);
+      transition: transform 0.3s ease, box-shadow 0.3s ease;
+      position: relative;
+      aspect-ratio: 3/4;
+      background: var(--surface-container);
+    }
+
+    .proof-item:hover {
+      transform: translateY(-4px);
+      box-shadow: 0 16px 40px rgba(44, 24, 16, 0.12);
+    }
+
+    .proof-item img {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+      display: block;
+    }
+
+    .proof-item .proof-overlay {
+      position: absolute;
+      bottom: 0;
+      left: 0;
+      right: 0;
+      padding: 0.5rem;
+      background: linear-gradient(transparent, rgba(44, 24, 16, 0.7));
+      color: white;
+      font-size: 0.7rem;
+      text-align: center;
+      pointer-events: none;
+    }
+
+    /* Lightbox modal */
+    .lightbox-modal {
+      display: none;
+      position: fixed;
+      top: 0;
+      left: 0;
+      right: 0;
+      bottom: 0;
+      z-index: 9999;
+      background: rgba(0, 0, 0, 0.9);
+      justify-content: center;
+      align-items: center;
+      padding: 2rem;
+      cursor: pointer;
+    }
+
+    .lightbox-modal.active {
+      display: flex;
+    }
+
+    .lightbox-modal img {
+      max-width: 100%;
+      max-height: 90vh;
+      border-radius: var(--radius-lg);
+      box-shadow: 0 20px 60px rgba(0, 0, 0, 0.5);
+      object-fit: contain;
+    }
+
+    .lightbox-close {
+      position: absolute;
+      top: 1.5rem;
+      right: 1.5rem;
+      width: 48px;
+      height: 48px;
+      background: rgba(255, 255, 255, 0.15);
+      border: none;
+      border-radius: 50%;
+      color: white;
+      font-size: 1.5rem;
+      cursor: pointer;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      transition: background 0.2s ease;
+    }
+
+    .lightbox-close:hover {
+      background: rgba(255, 255, 255, 0.3);
+    }
+
+    /* ============================================================
+       FINAL QUOTE
+       ============================================================ */
+    .final-quote-section {
+      background: linear-gradient(135deg, #1A0F00, #2C1810);
+      color: var(--surface);
+      text-align: center;
+      padding: var(--spacing-20) var(--spacing-6);
+      position: relative;
+      overflow: hidden;
+    }
+
+    .final-quote-section::before {
+      content: '';
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      width: 600px;
+      height: 600px;
+      background: radial-gradient(circle, rgba(212, 160, 23, 0.04) 0%, transparent 70%);
+      border-radius: 50%;
+      pointer-events: none;
+    }
+
+    .final-quote-section .container {
+      position: relative;
+      z-index: 1;
+    }
+
+    .final-quote-text {
+      font-family: var(--font-headline);
+      font-size: clamp(1.3rem, 3vw, 2rem);
+      font-weight: 700;
+      line-height: 1.4;
+      max-width: 720px;
+      margin: 0 auto;
+    }
+
+    .final-quote-text .highlight-elite {
+      background: var(--gold-gradient);
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+      background-clip: text;
+    }
+
+    .final-quote-section .quote-divider {
+      width: 60px;
+      height: 2px;
+      background: var(--primary);
+      margin: var(--spacing-6) auto;
+      opacity: 0.5;
+    }
+
+    /* ============================================================
        FOOTER
        ============================================================ */
     footer {
@@ -1413,6 +1723,19 @@
   </section>
 
   <!-- ============================================================
+  AUTHOR NOTE
+  ============================================================ -->
+  <section class="author-section">
+    <div class="container">
+      <div class="quill-icon">🍀</div>
+      <h2 class="display-sm" data-i18n="author_title">🍀 Note de l'Auteur</h2>
+      <div class="author-text" data-i18n="author_text">
+        L'auteur <strong>Mr Livre</strong> ne s'adresse qu'à cette Élite Africaine, qui cherche inlassablement la connaissance et ne lésine pas sur les moyens pour l'acquérir. Ce sont ces personnes là, les plus chanceuses, les plus déterminées, celles qui possèdent l'éthique et l'état d'esprit nécessaire, qui méritent de détenir ce livre.
+      </div>
+    </div>
+  </section>
+
+  <!-- ============================================================
   SECRETS CATEGORIES
   ============================================================ -->
   <section class="section section-alt" id="secrets">
@@ -1471,32 +1794,144 @@
       <div class="section-title">
         <h2 class="display-sm" data-i18n="testimonials_title">Ce que disent nos lecteurs</h2>
       </div>
-      <div class="testimonials-grid">
-        <div class="testimonial-card">
+      <p class="body-md section-desc" data-i18n="testimonials_subtitle">
+        Quelques Témoignages de lecteurs ayant utilisé les recettes du livre avec succès
+      </p>
+
+      <!-- Detailed testimonials -->
+      <div class="testimonials-detailed">
+        <!-- Témoignage 1 -->
+        <div class="testimonial-detailed-card">
           <div class="stars">★★★★★</div>
-          <div class="testimonial-text" data-i18n="testimonial_1_text">
-            Depuis que j'ai appliqué les secrets de ce livre, ma vie a complètement changé. La chance est devenue mon
-            quotidien !
+          <div class="testimonial-text" data-i18n="testi_1_text">
+            J'étais au chômage depuis des mois et je commençais à perdre espoir. J'ai essayé toutes les méthodes possibles pour trouver un nouvel emploi, mais rien ne fonctionnait. Un jour, j'ai découvert le livre "369 surpuissant secret Africain" et j'ai décidé d'essayer la recette pour attirer la chance. Quelques jours plus tard, j'ai été contacté par une entreprise qui m'a proposé un entretien d'embauche. J'ai obtenu le poste et je suis maintenant plus heureux que jamais. Merci Mamadou !
           </div>
-          <div class="testimonial-author" data-i18n="testimonial_1_author">Mamadou K.</div>
+          <div class="testimonial-author" data-i18n="testi_1_author">Amadou, 32 ans, Dakar, Sénégal</div>
         </div>
-        <div class="testimonial-card">
+
+        <!-- Témoignage 2 -->
+        <div class="testimonial-detailed-card">
           <div class="stars">★★★★★</div>
-          <div class="testimonial-text" data-i18n="testimonial_2_text">
-            Un livre incroyablement riche. Chaque page est une révélation. Je le recommande à tous ceux qui cherchent à
-            améliorer leur vie.
+          <div class="testimonial-text" data-i18n="testi_2_text">
+            J'étais célibataire depuis longtemps et je commençais à me sentir seule. J'ai essayé de rencontrer des gens, mais je n'arrivais pas à trouver la bonne personne. Un jour, j'ai lu le livre "369 surpuissant secret Africain" et j'ai décidé d'essayer la recette pour trouver l'amour. Quelques semaines plus tard, j'ai rencontré un homme merveilleux et nous sommes maintenant en couple. Je suis tellement heureuse d'avoir trouvé l'amour grâce à ce livre.
           </div>
-          <div class="testimonial-author" data-i18n="testimonial_2_author">Aminata S.</div>
+          <div class="testimonial-author" data-i18n="testi_2_author">Fatoumata, 28 ans, Bamako, Mali</div>
         </div>
-        <div class="testimonial-card">
+
+        <!-- Témoignage 3 -->
+        <div class="testimonial-detailed-card">
           <div class="stars">★★★★★</div>
-          <div class="testimonial-text" data-i18n="testimonial_3_text">
-            J'ai offert ce livre à plusieurs membres de ma famille. Les résultats sont stupéfiants. Un véritable trésor
-            de sagesse africaine.
+          <div class="testimonial-text" data-i18n="testi_3_text">
+            J'avais beaucoup de problèmes d'argent et je ne savais pas comment m'en sortir. J'ai essayé de trouver des solutions, mais rien ne fonctionnait. Un jour, j'ai découvert le livre "369 surpuissant secret Africain" et j'ai décidé d'essayer la recette pour la prospérité. Quelques mois plus tard, j'ai trouvé un nouveau travail qui me permet de gagner plus d'argent. J'ai également gagné à la loterie et j'ai pu rembourser toutes mes dettes. Je suis tellement reconnaissant pour ce livre.
           </div>
-          <div class="testimonial-author" data-i18n="testimonial_3_author">Koffi B.</div>
+          <div class="testimonial-author" data-i18n="testi_3_author">Moussa, 45 ans, Abidjan, Côte d'Ivoire</div>
+        </div>
+
+        <!-- Témoignage 4 -->
+        <div class="testimonial-detailed-card">
+          <div class="stars">★★★★★</div>
+          <div class="testimonial-text" data-i18n="testi_4_text">
+            J'étais constamment malade et je ne savais pas quoi faire. J'ai essayé de me soigner avec des médicaments, mais rien ne fonctionnait. Un jour, j'ai lu le livre "369 surpuissant secret Africain" et j'ai décidé d'essayer la recette pour la guérison. Quelques jours plus tard, je me suis sentie beaucoup mieux et j'ai retrouvé toute mon énergie. Je suis tellement heureuse d'être enfin guérie.
+          </div>
+          <div class="testimonial-author" data-i18n="testi_4_author">Aïcha, 52 ans, Ouagadougou, Burkina Faso</div>
+        </div>
+
+        <!-- Témoignage 5 -->
+        <div class="testimonial-detailed-card">
+          <div class="stars">★★★★★</div>
+          <div class="testimonial-text" data-i18n="testi_5_text">
+            J'étais victime de beaucoup de malchance et je ne savais pas comment m'en protéger. J'ai essayé de trouver des solutions, mais rien ne fonctionnait. Un jour, j'ai découvert le livre "369 surpuissant secret Africain" et j'ai décidé d'essayer la recette pour la protection. Depuis que j'utilise cette recette, je n'ai plus eu aucun problème. Je suis tellement reconnaissant pour ce livre.
+          </div>
+          <div class="testimonial-author" data-i18n="testi_5_author">Ibrahim, 38 ans, Accra, Ghana</div>
         </div>
       </div>
+
+      <!-- Other mini testimonials -->
+      <h3 style="text-align:center;font-family:var(--font-headline);font-size:1.2rem;margin-top:var(--spacing-12);margin-bottom:var(--spacing-4);color:var(--on-surface);" data-i18n="testi_other_title">👇🏼 Autres Témoignages 👇🏼</h3>
+
+      <div class="testimonials-other-grid">
+        <div class="testimonial-mini-card">
+          <div class="testimonial-text" data-i18n="testi_other_1">Après avoir suivi les conseils des 369 surpuissant Secret d'Afrique, j'ai enfin trouvé un emploi et mes finances se stabilisent. Un vrai miracle !</div>
+          <div class="testimonial-author" data-i18n="testi_other_1_author">Amina Diallo</div>
+        </div>
+        <div class="testimonial-mini-card">
+          <div class="testimonial-text" data-i18n="testi_other_2">Les rituels pour l'amour m'ont aidé à renforcer ma relation. Mon partenaire et moi sommes plus proches que jamais !</div>
+          <div class="testimonial-author" data-i18n="testi_other_2_author">Kwame Mensah</div>
+        </div>
+        <div class="testimonial-mini-card">
+          <div class="testimonial-text" data-i18n="testi_other_3">J'ai utilisé les techniques de protection du livre, et je me sens tellement plus en sécurité. C'est comme un bouclier autour de moi !</div>
+          <div class="testimonial-author" data-i18n="testi_other_3_author">Fatou Ndiaye</div>
+        </div>
+        <div class="testimonial-mini-card">
+          <div class="testimonial-text" data-i18n="testi_other_4">Depuis que j'applique les conseils du livre, des opportunités incroyables se présentent à moi. Je n'aurais jamais cru à une telle magie !</div>
+          <div class="testimonial-author" data-i18n="testi_other_4_author">Thabo Nkosi</div>
+        </div>
+        <div class="testimonial-mini-card">
+          <div class="testimonial-text" data-i18n="testi_other_5">Ce livre m'a apporté la paix intérieure. J'ai appris à gérer mes émotions et à attirer des énergies positives.</div>
+          <div class="testimonial-author" data-i18n="testi_other_5_author">Zainab Abubakar</div>
+        </div>
+        <div class="testimonial-mini-card">
+          <div class="testimonial-text" data-i18n="testi_other_6">En tant que praticien spirituel, je recommande vivement ce livre. Les rituels sont puissants et efficaces !</div>
+          <div class="testimonial-author" data-i18n="testi_other_6_author">Dr. Kofi</div>
+        </div>
+      </div>
+
+      <div class="testimonial-privacy" data-i18n="testi_privacy">Ils ont donné leur autorisation pour préciser leur nom dans les témoignages. La confidentialité de nos clients est primordiale.</div>
+    </div>
+  </section>
+
+  <!-- ============================================================
+  PROOFS GALLERY
+  ============================================================ -->
+  <section class="section section-alt" id="proofs">
+    <div class="container">
+      <div class="section-title">
+        <h2 class="display-sm" data-i18n="proofs_title">Preuves d'Achat & Retours Clients</h2>
+      </div>
+      <p class="body-md section-desc" data-i18n="proofs_desc">
+        Des milliers de lecteurs ont déjà transformé leur vie grâce à ce livre. Voici quelques preuves de leurs achats et retours satisfaits.
+      </p>
+      <div class="proofs-grid">
+        <div class="proof-item" onclick="openLightbox(this.querySelector('img').src)">
+          <img src="assets/proofs/photo_2026-07-19_23-29-20.jpg" alt="Preuve client" loading="lazy" />
+        </div>
+        <div class="proof-item" onclick="openLightbox(this.querySelector('img').src)">
+          <img src="assets/proofs/photo_2026-07-19_23-29-22.jpg" alt="Preuve client" loading="lazy" />
+        </div>
+        <div class="proof-item" onclick="openLightbox(this.querySelector('img').src)">
+          <img src="assets/proofs/photo_2026-07-19_23-29-27.jpg" alt="Preuve client" loading="lazy" />
+        </div>
+        <div class="proof-item" onclick="openLightbox(this.querySelector('img').src)">
+          <img src="assets/proofs/photo_2026-07-19_23-29-33.jpg" alt="Preuve client" loading="lazy" />
+        </div>
+        <div class="proof-item" onclick="openLightbox(this.querySelector('img').src)">
+          <img src="assets/proofs/photo_2026-07-19_23-29-35.jpg" alt="Preuve client" loading="lazy" />
+        </div>
+        <div class="proof-item" onclick="openLightbox(this.querySelector('img').src)">
+          <img src="assets/proofs/photo_2026-07-19_23-29-40.jpg" alt="Preuve client" loading="lazy" />
+        </div>
+        <div class="proof-item" onclick="openLightbox(this.querySelector('img').src)">
+          <img src="assets/proofs/photo_2026-07-19_23-29-42.jpg" alt="Preuve client" loading="lazy" />
+        </div>
+        <div class="proof-item" onclick="openLightbox(this.querySelector('img').src)">
+          <img src="assets/proofs/photo_2026-07-19_23-29-43.jpg" alt="Preuve client" loading="lazy" />
+        </div>
+        <div class="proof-item" onclick="openLightbox(this.querySelector('img').src)">
+          <img src="assets/proofs/photo_2026-07-19_23-29-46.jpg" alt="Preuve client" loading="lazy" />
+        </div>
+        <div class="proof-item" onclick="openLightbox(this.querySelector('img').src)">
+          <img src="assets/proofs/photo_2026-07-19_23-29-47.jpg" alt="Preuve client" loading="lazy" />
+        </div>
+        <div class="proof-item" onclick="openLightbox(this.querySelector('img').src)">
+          <img src="assets/proofs/photo_2026-07-19_23-29-49.jpg" alt="Preuve client" loading="lazy" />
+        </div>
+      </div>
+    </div>
+
+    <!-- Lightbox Modal -->
+    <div class="lightbox-modal" id="lightboxModal" onclick="closeLightbox()">
+      <button class="lightbox-close" onclick="event.stopPropagation();closeLightbox()">✕</button>
+      <img id="lightboxImg" src="" alt="Agrandissement" />
     </div>
   </section>
 
@@ -1580,6 +2015,19 @@
   </section>
 
   <!-- ============================================================
+  FINAL QUOTE
+  ============================================================ -->
+  <section class="final-quote-section">
+    <div class="container">
+      <div class="final-quote-text" data-i18n="final_quote">
+        Les Masses douteront, <span class="highlight-elite">Les Élites agiront</span>.<br />
+        La dernière question est : À quel groupe appartenez-vous ?
+      </div>
+      <div class="quote-divider"></div>
+    </div>
+  </section>
+
+  <!-- ============================================================
   FOOTER
   ============================================================ -->
   <footer>
@@ -1607,6 +2055,26 @@
       } else {
         btn.classList.remove('visible');
       }
+    });
+
+    // ---- Lightbox ----
+    function openLightbox(src) {
+      const modal = document.getElementById('lightboxModal');
+      const img = document.getElementById('lightboxImg');
+      img.src = src;
+      modal.classList.add('active');
+      document.body.style.overflow = 'hidden';
+    }
+
+    function closeLightbox() {
+      const modal = document.getElementById('lightboxModal');
+      modal.classList.remove('active');
+      document.body.style.overflow = '';
+    }
+
+    // Close lightbox with Escape key
+    document.addEventListener('keydown', function (e) {
+      if (e.key === 'Escape') closeLightbox();
     });
 
     // ---- FAQ toggle ----
